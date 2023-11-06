@@ -1,226 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Domestic FreightWays</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles.css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Domestic FreightWays</title>
-</head>
+  <body>
+    <nav class="px-[5%] bg-[#FFFAF2] py-20">
+      <a href="#" class="flex gap-4">
+        <img src="./assets/main-logo.svg" alt="" class="w-12" />
+        <div class="flex-col font-semibold">Domestic<br />FreightWays</div>
+      </a>
+    </nav>
 
-<body>
+    <section class="px-[5%] bg-[#FFFAF2] pb-20">
+      <h1
+        class="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-800"
+        style="line-height: 60px"
+      >
+        Driven by Dedication, <br />Defined by Delivery.
+      </h1>
+      <p class="text-2xl mt-6 font-light text-gray-700">
+        Whether you're a small business with local shipments or a global
+        corporation with complex logistics demands, Domestic Freightways is your
+        dedicated logistics partner. We're ready to transport your cargo, uphold
+        your trust, and propel your success.
+      </p>
+      <p class="text-2xl mt-6 mb-10 font-light text-gray-700">
+        Join us in reshaping the future of logistics. Experience excellence.
+        Experience Domestic Freightways.
+      </p>
+      <a
+        href="javascript: scrolltoId();"
+        class="border border-[#007AD0] bg-[#007AD0] text-white p-3 px-6 transition delay-50"
+        >Contact Us</a
+      >
+    </section>
 
-  <nav class="px-[5%] bg-[#FFFAF2] py-20">
-    <a href="#" class="flex gap-4">
-      <img src="./assets/main-logo.svg" alt="" class="w-12" />
-      <div class="flex-col font-semibold">
-        Domestic<br />FreightWays
-      </div>
-    </a>
-  </nav>
+    <section class="banner">
+      <img src="./assets/banner-img.png" alt="" />
+    </section>
 
-  <section class="px-[5%] bg-[#FFFAF2] pb-20">
-    <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-800" style="line-height: 60px;">
-      Driven by Dedication, <br />Defined by Delivery.
-    </h1>
-    <p class="text-2xl mt-6 font-light text-gray-700">
-      Whether you're a small business with local shipments or a global corporation with complex logistics demands,
-      Domestic Freightways is your dedicated logistics partner. We're ready to transport your cargo, uphold your
-      trust, and propel your success.
-    </p>
-    <p class="text-2xl mt-6 mb-10 font-light text-gray-700">
-      Join us in reshaping the future of logistics. Experience excellence. Experience Domestic Freightways.
-    </p>
-    <a href="javascript: scrolltoId();"
-      class="border border-[#007AD0] bg-[#007AD0] text-white p-3 px-6 transition delay-50">Contact Us</a>
-  </section>
-
-  <section class="banner">
-    <img src="./assets/banner-img.png" alt="" />
-  </section>
-
-  <section class="px-[5%] py-24 text-2xl">
+    <!-- <section class="px-[5%] py-24 text-2xl">
     <p>We are a Logistics Company with over 10 years of experience. Providing specialised road transportation services
       tailored to customers' individual needs.
     <p class="mt-6">We emphasise human resources, with drivers receiving ongoing training to meet customers' needs in a competitive
       environment. The core team strives to provide tailor-made solutions based on their knowledge and expertise.</p>
     </p>
-  </section>
+  </section> -->
 
+    <!-- SERVICES: START -->
+    <section class="px-[5%] py-24">
+      <div class="mb-12">
+        <h3
+          class="text-3xl font-medium text-gray-500"
+          style="line-height: 2.6rem"
+        >
+          Founded in 2010,
+          <span class="text-gray-900">Freightways</span> emerged as a
+          family-owned business with a passion for logistics. Our humble
+          beginnings centered around providing
+          <span class="text-gray-900">top-notch domestic freight services</span>
+          , and over the years, we have grown into a distinguished name in the
+          industry.
+        </h3>
+        <h3
+          class="text-3xl font-medium text-gray-500 mt-6"
+          style="line-height: 2.6rem"
+        >
+          At <span class="text-gray-900">Domestic Freightways</span>, we are
+          driven by a relentless
+          <span class="text-gray-900">commitment</span> to deliver more than
+          just cargo. We promise reliability, efficiency, and precision,
+          ensuring that your freight travels seamlessly,
+          <span class="text-gray-900">safely</span>, and swiftly. Our
+          comprehensive suite of services includes:
+        </h3>
 
-  <section class="bg-[#F6F8F9] px-[5%] py-24">
-    <div class="mb-12 space-y-2">
-      <h3 class="text-3xl font-bold text-gray-500">Why Choose Us?</h3>
-      <h3 class="text-4xl font-bold text-gray-900">Moving businesses across India</h3>
-    </div>
-    <section class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 place-content-center items-center">
-      <div
-        class="group bg-white border p-8 py-16 transition-colors duration-500 ease-in-out hover:bg-gradient-to-r from-blue-500 to-sky-400 ">
-        <img src="./assets/Vector.png" alt="" class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]">
-        <span
-          class="font-semibold text-xl my-3 mt-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">Quality
-          Assurance</span>
-        <p class="text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">
-          We adhere to Safety, Health, and Environment (SHE) Guidelines provided
-          by the Customers. We equip our drivers with tools and training to
-          handle operations. We use MIS to send regular feedback on truck
-          movements, Delivery status, speed, etc.
-        </p>
+        <h3
+          class="text-3xl font-medium text-gray-500 mt-6"
+          style="line-height: 2.6rem"
+        >
+          Our comprehensive suite of services includes -
+        </h3>
       </div>
 
-      <div
-        class="group bg-white border p-8 py-16 hover:bg-gradient-to-r from-blue-500 to-sky-400 transition hover:transition">
-        <img src="./assets/road-freight.png" alt="" class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]">
-        <span class="font-semibold text-xl my-3 mt-4 text-[#2B2E3A] group-hover:text-gray-100 transition delay-50">Our
-          Element</span>
-        <p class="text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">
-          Road freight is the main element of our business. Our fleet is
-          equipped with Global Positioning Systems providing real-time location
-          along with the temperature of the goods transported.
-        </p>
-      </div>
-
-      <div
-        class="group bg-white border p-8 py-16 hover:bg-gradient-to-r from-blue-500 to-sky-400 transition hover:transition">
-        <img src="./assets/buisnessExpertise.png" alt=""
-          class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]">
-        <span
-          class="font-semibold text-xl my-3 mt-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">Business
-          Expertise</span>
-        <p class="text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">
-          We hold expertise in transporting high-value cargo with a capacity of
-          10-23 MT. And ample experience in carrying FMCG Products, Chemicals,
-          pharmaceutical products, and more.
-        </p>
-      </div>
-
-      <div
-        class="group bg-white border p-8 py-16 hover:bg-gradient-to-r from-blue-500 to-sky-400 transition hover:transition">
-        <img src="./assets/customerSatisfaction.png" alt=""
-          class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]">
-        <span
-          class="font-semibold text-xl my-3 mt-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">Customer
-          Satisfaction</span>
-        <p class="text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">
-          We take pride in maintaining the legacy of our business. Having over
-          150+ satisfied customer businesses gives us an edge and the certainty
-          of your trust.
-      </div>
-
-      <div
-        class="group bg-white border p-8 py-16 hover:bg-gradient-to-r from-blue-500 to-sky-400 transition hover:transition">
-        <img src="./assets/technology.png" alt="" class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]">
-        <span
-          class="font-semibold text-xl my-3 mt-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">Technology</span>
-        <p class="text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">
-          We use the latest technology integrations for warehouse and transport
-          management to enable uninterrupted movement of vehicles and offer
-          seamless experience to our clients.
-      </div>
-
-      <div
-        class="group bg-white border p-8 py-16 hover:bg-gradient-to-r from-blue-500 to-sky-400 transition hover:transition">
-        <img src="./assets/box.png" alt="" class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]">
-        <span
-          class="font-semibold text-xl my-3 mt-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">Packaging
-          and delivery</span>
-        <p class="text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out">
-          Along with our own measures and guidelines, we make deliveries
-          strictly to your requirements. Our packaging ensures the value of the
-          items remains intact.
-      </div>
-    </section>
-  </section>
-
-  <section class="bg-[#007AD0]">
-    <div class="contact">
-      <h2 class="text-4xl font-semibold">Got Logistics Requirements?</h2>
-      <p class="text-2xl text-center font-light text-md">
-        Have questions or need assistance with your logistics needs? <br /> We're here to help.
-        Reach out to us now!
-      </p>
-      <div class="flex items-center gap-4">
-        <a href="https://calendly.com/domesticfreightway/30min?month=2023-04"
-          class="border border-white p-2 px-6 bg-white text-gray-900">Enquire</a>
-        <a href="javascript: scrolltoId();"
-          class="border border-white p-2 px-6 hover:bg-white hover:text-gray-900 transition delay-50">Contact</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="px-[5%] py-12">
-    <h2 class="text-4xl font-semibold mb-12">Clients Served</h2>
-    <div class="grid grid-cols-2 gap-12 md:grid-cols-2 lg:grid-cols-3 place-content-center items-center">
-      <img src="./assets/indorama.png" alt="" class="w-[150px]">
-      <img src="./assets/necLife.png" alt="" class="w-[150px]">
-      <img src="./assets/richs.png" alt="" class="w-[150px]">
-      <img src="./assets/bannet.png" alt="" class="w-[150px] ">
-      <img src="./assets/john.png" alt="" class="w-[150px] ">
-      <img src="./assets/alliance.jpeg" alt="" class="w-[100px]">
-    </div>
-  </section>
-
-  <!-- ====== Footer Section Start -->
-  <footer class="relative z-10 bg-gray-900 pt-20 p-10 lg:pt-[100px] lg:pb-20">
-    <div class="container mx-auto">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full px-4 sm:w-2/3 lg:w-4/12">
-          <div class="w-full mb-10">
-            <h4 class="text-3xl font-semibold text-dark dark:text-white mb-9">
-              Domestic Freightways
-            </h4>
-            <p class="text-base text-gray-100 mb-7">
-              At domestic freightways, we don't just transport goods; we deliver promises, excellence, and peace of
-              mind. Our journey began with a vision to redefine logistics and transportation services, creating a
-              premium brand that consistently exceeds your expectations.
+      <section class="place-content-center items-center">
+        <div
+          class="flex flex-col md:flex-row border-b border-[#ccc] p-8 pb-16 justify-between items-center"
+        >
+          <div class="flex-[0.3]">
+            <img
+              src="./assets/services/road-transport.jpeg"
+              alt=""
+              class="w-[300px]"
+            />
+          </div>
+          <div class="flex-[0.7]">
+            <p class="font-semibold text-xl mt-3 mt-4 text-gray-600 uppercase">
+              Road Transportation
+            </p>
+            <p class="font-semibold text-3xl mb-3 mt-1 text-[#2B2E3A]">
+              Reliable Road Transportation Services
+            </p>
+            <p class="text-gray-600 text-lg">
+              Domestic Freightways offers a comprehensive and reliable road
+              transportation service that's at the heart of our logistics
+              solutions. With our modern fleet of vehicles, experienced drivers,
+              and a dedication to timeliness, we ensure that your cargo reaches
+              its destination securely and on schedule. Our road transportation
+              service is the foundation of our commitment to deliver excellence,
+              whether your shipments are local or nationwide.
             </p>
           </div>
         </div>
-        <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
-          <div class="w-full mb-10">
-            <h4 class="text-lg font-semibold text-dark dark:text-white mb-9" id="contactUs">
-              Contact Details
-            </h4>
-            <ul class="space-y-3 text-gray-100 ">
-              <li>
-                <p>domesticfreightindia@gmail.com</p>
-              </li>
-              <li>
-                <p>Mobile: +91 8054940083</p>
-              </li>
-              <li>
-                <p>Phone: 0172-2792975</p>
-              </li>
-            </ul>
+
+        <div
+          class="flex flex-col md:flex-row border-b border-[#ccc] p-8 py-16 justify-between items-center"
+        >
+          <div class="flex-[0.3]">
+            <img
+              src="./assets/services/refrigerated-transportation.jpeg"
+              alt=""
+              class="w-[300px]"
+            />
+          </div>
+          <div class="flex-[0.7]">
+            <p class="font-semibold text-xl mt-3 mt-4 text-gray-600 uppercase">
+              Refrigerated Transportation
+            </p>
+            <p class="font-semibold text-3xl mb-3 mt-1 text-[#2B2E3A]">
+              Preserving perfection
+            </p>
+            <p class="text-gray-600 text-lg">
+              When it comes to temperature sensitive cargo, Domestic Freightways
+              provides a dedicated refrigerated transportation service. Our
+              state-of-the-art refrigerated trucks and facilities guarantee the
+              perfect environment for your perishable goods. From food products
+              to pharmaceuticals, we ensure that your temperature-sensitive
+              cargo remains in optimal condition throughout the journey.
+            </p>
           </div>
         </div>
-        <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
-          <div class="w-full mb-10">
-            <h4 class="text-lg font-semibold text-dark dark:text-white mb-9">
-              Address
-            </h4>
-            <ul class="space-y-3 text-gray-100 ">
-              <p>HO: Plot no -41, New timber Market, Sector-26, Chandigarh - 160019</p>
-              <p>Branches - Gurgaon, Zirakpur, Panchkula</p>
-            </ul>
+
+        <div
+          class="flex flex-col md:flex-row border-b border-[#ccc] p-8 py-16 justify-between items-center"
+        >
+          <div class="flex-[0.3]">
+            <img src="./assets/services/railway.png" alt="" class="w-[300px]" />
+          </div>
+          <div class="flex-[0.7]">
+            <p class="font-semibold text-xl mt-3 mt-4 text-gray-600 uppercase">
+              Railway Transportation
+            </p>
+            <p class="font-semibold text-3xl mb-3 mt-1 text-[#2B2E3A]">
+              Efficient Railway Transportation Solutions
+            </p>
+            <p class="text-gray-600 text-lg">
+              For long-haul freight and intermodal transportation needs,
+              Domestic Freightways offers efficient and cost-effective railway
+              transportation services. Leveraging our partnerships with leading
+              railway providers, we ensure your cargo reaches its destination
+              swiftly and securely. Our commitment to precision and reliability
+              extends to rail, making us the ideal choice for your extensive
+              shipping requirements.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row border-b border-[#ccc] p-8 py-16 justify-between items-center"
+        >
+          <div class="flex-[0.3]">
+            <img
+              src="./assets/services/temp-controlled-storage.jpeg"
+              alt=""
+              class="w-[300px]"
+            />
+          </div>
+          <div class="flex-[0.7]">
+            <p class="font-semibold text-xl mt-3 mt-4 text-gray-600 uppercase">
+              Cold Storage and Warehouse Facilities
+            </p>
+            <p class="font-semibold text-3xl mb-3 mt-1 text-[#2B2E3A]">
+              Secure and Temperature-Controlled Storage
+            </p>
+            <p class="text-gray-600 text-lg">
+              Domestic Freightways understands the importance of secure and
+              temperature-controlled storage. Our cold storage and warehouse
+              facilities are equipped with the latest technology to accommodate
+              your storage needs. From frozen goods to pharmaceuticals, our
+              facilities maintain the perfect conditions to keep your products
+              safe and in pristine condition.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row gap-8 border-b border-[#ccc] p-8 py-16 justify-between items-center"
+        >
+          <div class="flex-[0.3] flex items-center justify-center">
+            <img
+              src="./assets/services/air-freight.svg"
+              alt=""
+              class="w-[220px]"
+            />
+          </div>
+          <div class="flex-[0.7]">
+            <p class="font-semibold text-xl mt-3 mt-4 text-gray-600 uppercase">
+              Air Cargo
+            </p>
+            <p class="font-semibold text-3xl mb-3 mt-1 text-[#2B2E3A]">
+              Expedited Air Cargo Services
+            </p>
+            <p class="text-gray-600 text-lg">
+              When time is of the essence, Domestic Freightways offers expedited
+              air cargo services that ensure your goods reach their destination
+              quickly. Our global network of partners and associates guarantees
+              seamless air transportation, connecting you to destinations around
+              the world. With Domestic Freightways, your air cargo is in safe
+              and reliable hands.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row p-8 pt-16 pb-0 justify-between items-center"
+        >
+          <div class="flex-[0.3]">
+            <img
+              src="./assets/services/customised.avif"
+              alt=""
+              class="w-[300px]"
+            />
+          </div>
+          <div class="flex-[0.7]">
+            <p class="font-semibold text-xl mt-3 mt-4 text-gray-600 uppercase">
+              Customized Solutions
+            </p>
+            <p class="font-semibold text-3xl mb-3 mt-1 text-[#2B2E3A]">
+              Customized Solutions for you
+            </p>
+            <p class="text-gray-600 text-lg">
+              At Domestic Freightways, we recognize that every shipment is
+              unique. Our team of logistics experts works closely with you to
+              design customized transportation solutions that meet your specific
+              requirements. Whether it's finding the most cost-effective route,
+              ensuring compliance with industry regulations, or optimizing your
+              supply chain, we are here to cater to your individual needs. With
+              a wide range of transportation services, from road and rail to air
+              and cold storage, Domestic Freightways is your one-stop
+              destination for all your logistics needs. We deliver precision,
+              reliability, and excellence, ensuring your cargo is in the best
+              hands from start to finish.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- SERVICES: END -->
+
+    <!-- WHY CHOOSE US: START -->
+    <section class="bg-[#F6F8F9] px-[5%] py-24">
+      <div class="mb-12 space-y-2">
+        <h3 class="text-3xl font-bold text-gray-500">Why Choose Us?</h3>
+        <h3 class="text-4xl font-bold text-gray-900">
+          Moving businesses across India
+        </h3>
+      </div>
+      <section
+        class="grid grid-cols-1 gap-12 md:grid-cols-2 place-content-center items-center"
+      >
+        <div
+          class="min-h-[550px] group bg-white border p-8 py-16 transition-colors duration-500 ease-in-out hover:bg-gradient-to-r from-blue-500 to-sky-400"
+        >
+          <img
+            src="./assets/Vector.png"
+            alt=""
+            class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]"
+          />
+          <p
+            class="font-semibold text-xl mb-1 uppercase mt-4 text-gray-600 group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            Quality Assurance
+          </p>
+          <p
+            class="font-semibold text-3xl mb-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            Excellence in Every Shipment
+          </p>
+          <p
+            class="text-lg text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            At Domestic Freightways, quality assurance isn't just a commitment –
+            it's our promise. We go above and beyond industry standards to
+            ensure that your cargo is handled with precision and care. From
+            temperature-sensitive goods to high-value merchandise, we maintain
+            the highest quality control measures at every step of the
+            transportation process. Your cargo's safety and integrity are our
+            top priorities, so you can trust that your shipments are in the best
+            hands.
+          </p>
+        </div>
+
+        <div
+          class="min-h-[550px] group bg-white border p-8 py-16 transition-colors duration-500 ease-in-out hover:bg-gradient-to-r from-blue-500 to-sky-400"
+        >
+          <img
+            src="./assets/buisnessExpertise.png"
+            alt=""
+            class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]"
+          />
+          <p
+            class="font-semibold text-xl mb-1 uppercase mt-4 text-gray-600 group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            Business Expertise
+          </p>
+          <p
+            class="font-semibold text-3xl mb-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            13 Years of Proven Excellence
+          </p>
+
+          <p
+            class="text-lg text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            With over 13 years of experience in the logistics industry, Domestic
+            Freightways has developed a wealth of expertise that sets us apart.
+            Our seasoned team of professionals understands the complexities of
+            the logistics landscape, ensuring your shipments are handled with
+            efficiency and precision. We've successfully navigated challenges,
+            harnessed opportunities, and have the knowledge to optimize your
+            supply chain and deliver exceptional results.
+          </p>
+        </div>
+
+        <div
+          class="min-h-[550px] group bg-white border p-8 py-16 transition-colors duration-500 ease-in-out hover:bg-gradient-to-r from-blue-500 to-sky-400"
+        >
+          <img
+            src="./assets/customerSatisfaction.png"
+            alt=""
+            class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]"
+          />
+          <p
+            class="font-semibold text-xl mb-1 uppercase mt-4 text-gray-600 group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            Customer Satisfaction
+          </p>
+          <p
+            class="font-semibold text-3xl mb-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            Your Success is Our Success
+          </p>
+
+          <p
+            class="text-lg text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            At Domestic Freightways, we believe that our success is
+            intrinsically linked to your satisfaction. We are driven by a
+            customer-centric approach, always focused on understanding your
+            unique requirements. Our dedication to exceeding your expectations
+            is at the core of our services. We measure our success by the
+            satisfaction of our clients, ensuring that every delivery is a
+            reflection of our commitment to your success.
+          </p>
+        </div>
+
+        <div
+          class="min-h-[550px] group bg-white border p-8 py-16 transition-colors duration-500 ease-in-out hover:bg-gradient-to-r from-blue-500 to-sky-400"
+        >
+          <img
+            src="./assets/technology.png"
+            alt=""
+            class="group-hover:brightness-0 group-hover:invert-[1] w-[60px]"
+          />
+          <p
+            class="font-semibold text-xl mb-1 uppercase mt-4 text-gray-600 group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            Cutting-Edge Technology
+          </p>
+          <p
+            class="font-semibold text-3xl mb-4 text-[#2B2E3A] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            Streamlined Operations for Unmatched Efficiency
+          </p>
+
+          <p
+            class="text-lg text-[#7E8690] group-hover:text-gray-100 transition-colors duration-500 ease-in-out"
+          >
+            In a constantly evolving world, we stay ahead of the curve. We
+            invest in cutting-edge technology to streamline our operations, from
+            advanced tracking systems to data analytics. This enables us to
+            provide you with real-time information, optimize routes, and ensure
+            the accuracy and efficiency of every aspect of our services. With
+            Domestic Freightways, you get the benefits of state-of-the-art
+            technology for an unmatched logistics experience.
+          </p>
+        </div>
+      </section>
+    </section>
+    <!-- WHY CHOOSE US: END -->
+
+    <section class="bg-[#007AD0]">
+      <div class="contact">
+        <h2 class="text-4xl font-semibold">Got Logistics Requirements?</h2>
+        <p class="text-2xl text-center font-light text-md">
+          Have questions or need assistance with your logistics needs? <br />
+          We're here to help. Reach out to us now!
+        </p>
+        <div class="flex items-center gap-4">
+          <a
+            href="https://calendly.com/domesticfreightway/30min?month=2023-04"
+            class="border border-white p-2 px-6 bg-white text-gray-900"
+            >Enquire</a
+          >
+          <a
+            href="javascript: scrolltoId();"
+            class="border border-white p-2 px-6 hover:bg-white hover:text-gray-900 transition delay-50"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="px-[5%] py-12">
+      <h2 class="text-4xl font-semibold mb-12">Clients Served</h2>
+      <div
+        class="grid grid-cols-2 gap-12 md:grid-cols-2 lg:grid-cols-3 place-content-center items-center"
+      >
+        <img src="./assets/indorama.png" alt="" class="w-[150px]" />
+        <img src="./assets/necLife.png" alt="" class="w-[150px]" />
+        <img src="./assets/richs.png" alt="" class="w-[150px]" />
+        <img src="./assets/bannet.png" alt="" class="w-[150px]" />
+        <img src="./assets/john.png" alt="" class="w-[150px]" />
+        <img src="./assets/alliance.jpeg" alt="" class="w-[100px]" />
+      </div>
+    </section>
+
+    <!-- ====== Footer Section Start -->
+    <footer class="relative z-10 bg-gray-900 pt-20 p-10 lg:pt-[100px] lg:pb-20">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4 sm:w-2/3 lg:w-4/12">
+            <div class="w-full mb-10">
+              <h4 class="text-3xl font-semibold text-dark dark:text-white mb-9">
+                Domestic Freightways
+              </h4>
+              <p class="text-base text-gray-100 mb-7">
+                At domestic freightways, we don't just transport goods; we
+                deliver promises, excellence, and peace of mind. Our journey
+                began with a vision to redefine logistics and transportation
+                services, creating a premium brand that consistently exceeds
+                your expectations.
+              </p>
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
+            <div class="w-full mb-10">
+              <h4
+                class="text-lg font-semibold text-dark dark:text-white mb-9"
+                id="contactUs"
+              >
+                Contact Details
+              </h4>
+              <ul class="space-y-3 text-gray-100">
+                <li>
+                  <p>domesticfreightindia@gmail.com</p>
+                </li>
+                <li>
+                  <p>Mobile: +91 8054940083</p>
+                </li>
+                <li>
+                  <p>Phone: 0172-2792975</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
+            <div class="w-full mb-10">
+              <h4 class="text-lg font-semibold text-dark dark:text-white mb-9">
+                Address
+              </h4>
+              <ul class="space-y-3 text-gray-100">
+                <p>
+                  HO: Plot no -41, New timber Market, Sector-26, Chandigarh -
+                  160019
+                </p>
+                <p>Branches - Gurgaon, Zirakpur, Panchkula</p>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- ====== Footer Section End -->
-</body>
+    </footer>
+    <!-- ====== Footer Section End -->
+  </body>
 
-<script>
-  function scrolltoId() {
-    const access = document.getElementById("contactUs");
-    access.scrollIntoView({
-      behavior: "smooth"
-    });
-  }
-
-</script>
-
+  <script>
+    function scrolltoId() {
+      const access = document.getElementById("contactUs");
+      access.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  </script>
 </html>
